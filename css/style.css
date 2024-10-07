@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gainsboro;
+}
+
+
+body{
+  background-color: rgb(27, 26, 26);
+}
+
+#prev {
+  background-color: white;
+  width: 8.27in;
+  min-height: 11.7in;
+  /* scale: .7; */
+}
+
+#button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.old-order {
+  margin-top: 10px;
+  background-color: bisque;
+  border-radius: 10px;
+  text-align: center;
+}
+.new-order {
+  background-color: rgb(92, 0, 116);
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.order-area {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-ord {
+  display: block;
+  width: 120px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.apply-order {
+  margin-top: 20px;
+}
+.row-info{
+  border-radius: 8px;
+  height: 50%;
+  display: flex;
+ margin-left: 0.5%;
+ margin-top: 2px;
+  width: 99%;
+  background-color: rgb(74, 0, 143);
+  
+}
+li{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+h1{
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.neww{
+  margin-left: 20px;
+  color: white;
+ 
+}
+
+.info {
+  display: block;
+  text-align: center;
+  padding: 100px 30px;
+  margin: 0 0px 50px 0;
+  background-color: rgb(65, 3, 83);
+  /* background: linear-gradient(45deg,#fdd650,#ef770f); */
+  /* background: linear-gradient(45deg,#26e8dd,#269ae8); */
+  /* background: linear-gradient(45deg,#269ae8,#26e8dd); */
+}
+
+@media all and (max-width: 992px) {
+  #prev {
+    zoom: 0.7;
+   
+  }
+}
+
+.info h1,
+.info p {
+  margin: auto;
+  color: white;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.email,
+.linked,
+.github {
+  height: 40px;
+  font-size: 80px;
+  margin: 10px;
+}
+
+.email {
+  height: 50px;
+}
+
+.conts a {
+  text-decoration: none;
+}
+
+.cont-with {
+  font-size: 30px;
+}
+
+#left-side {
+  margin-bottom: 10px;
+}
